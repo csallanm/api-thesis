@@ -8,7 +8,7 @@ const mysql=require("mysql")
 
 // step 1 establishing connection
 const connection = mysql.createConnection({
-    host: "localhost",
+    host: "srv545.hstgr.io",
     user: "u579076463_eucsasdatabase",
     password: "CCS_database_sas2024",
     database: "u579076463_dbthesis"
