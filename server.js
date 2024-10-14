@@ -8,10 +8,10 @@ const mysql=require("mysql")
 
 // step 1 establishing connection
 const connection = mysql.createConnection({
-    host: "srv545.hstgr.io",
-    user: "u579076463_eucsasdatabase",
-    password: "CCS_database_sas2024",
-    database: "u579076463_dbthesis"
+    host: "bpthouv9eqqlrjbn1xr6-mysql.services.clever-cloud.com",
+    user: "umarhelax4zx39oc",
+    password: "nLIyEFTJ4LtiRwHJnI5m",
+    database: "bpthouv9eqqlrjbn1xr6"
 })
 
 // step 2 sending queries (get)
