@@ -61,6 +61,7 @@ app.post("/api/facts", (req, res)=>{
 // put - Update
 app.put("/api/facts", (req,res) => {
     const fact = req.body.fact;
+    const id = req.body.id;
 
     connection.query(`UPDATE tblfacts SET fact='${fact}' WHERE id=${id}`, (err, rows, fields) => {
         //check if Ã‚ there are errors, then throwing the error
